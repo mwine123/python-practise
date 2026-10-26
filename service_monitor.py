@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 while True:
     status = input("Enter service status (running/stopped/exit): ")
     if status == "exit":
