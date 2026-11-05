@@ -1,0 +1,27 @@
+Python lists
+
+It is a built in and sequencing data type that has its items enclosed in square brackets.
+
+Properties
+They are:
+- Ordereed
+- Zero-based
+- Mutable
+- Dynamic
+- Heterogeneous
+- Nestable 
+- Iterable
+- Slicable
+- Combinable
+
+Creating a List
+we can use 
+- list literals Eg: my.list = [item_0, item_1, ..., item_n]
+- list constructor. Eg: my_list = list([iterable])
+- list comprehens. Eg: my_list = [expression for element in iterable]
+
+Retrieving Elements From a List
+Members of a list can be accessed using square brackets '[]'
+Individual elements can be retrieved by zero-based index. Eg: my_list[index]
+Multiple elements can be retrieved by slicing, returning a new list.
+Eg: my_list[start:stop:step]
