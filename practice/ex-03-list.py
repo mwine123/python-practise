@@ -14,8 +14,10 @@ for i in a:
 print(b)
 
 num = input("Enter a number: ")
+# checking if input is valid (only digits)
 if num.isdigit():
     num = int(num)
+    # checking if num is a positive number
     if num <= 0:
         print("Please enter a positive number.")
         exit()

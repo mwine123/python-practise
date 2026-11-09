@@ -3,7 +3,9 @@
 number = input("Enter a number: ")
 
 if number.isdigit():
+    # checking if input is valid (only digits)
     number = int(number)
+    # checking if number is a positive number
     if number <= 0:
         print("Please enter a positive number.")
         exit()
@@ -23,8 +25,10 @@ else:
 
 num = input("Enter another number: ")
 
+# checking if input is valid (only digits)
 if num.isdigit():
     num = int(num)
+    # checking if num is a positive number
     if num <= 0:
         print("Please enter a positive number.")
         exit()
@@ -34,8 +38,10 @@ else:
 
 check = input("Enter a third number: ")
 
+# checking if input is valid (only digits)
 if check.isdigit():
     check = int(check)
+    # checking if check is a positive number
     if check <= 0:
         print("Please enter a positive number.")
         exit()
